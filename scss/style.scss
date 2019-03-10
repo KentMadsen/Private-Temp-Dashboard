@@ -83,7 +83,19 @@ border:1px solid black;
 
   margin-top: 16px;
   margin-bottom: 16px;
+
   justify-content: center;;
+}
+
+
+.rule-listed:first-child
+{
+  margin-top: 0px;
+}
+
+.rule-listed:last-child
+{
+  margin-bottom: 0px;
 }
 
 .rule-listed .listed
@@ -91,8 +103,6 @@ border:1px solid black;
   font-weight: bold;
   margin-left: 2px;
   margin-right: 2px;
-
-
 }
 
 .rule-listed p
@@ -152,7 +162,17 @@ footer
 
   .area
   {
+    grid-gap: 64px !important;
+    
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr 1fr !important;
+  }
+
+  .rule-listed
+  {
+    
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
   }
 }

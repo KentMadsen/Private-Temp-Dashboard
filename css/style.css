@@ -55,6 +55,14 @@ body {
   justify-content: center;
 }
 
+.rule-listed:first-child {
+  margin-top: 0px;
+}
+
+.rule-listed:last-child {
+  margin-bottom: 0px;
+}
+
 .rule-listed .listed {
   font-weight: bold;
   margin-left: 2px;
@@ -94,8 +102,14 @@ body {
 
 @media only screen and (max-width: 800px) {
   .area {
+    grid-gap: 64px !important;
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr 1fr !important;
+  }
+
+  .rule-listed {
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }
 
