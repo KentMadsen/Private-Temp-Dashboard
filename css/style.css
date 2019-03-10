@@ -101,6 +101,10 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
+  .author-cited-from {
+    width: 325px !important;
+  }
+
   .area {
     margin-top: 86px;
     grid-gap: 32px !important;
