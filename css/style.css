@@ -106,7 +106,7 @@ body {
   }
 
   .area {
-    margin-top: 86px;
+    margin-top: 64px;
     grid-gap: 32px !important;
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr 1fr !important;
