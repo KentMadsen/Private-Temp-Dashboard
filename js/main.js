@@ -1,4 +1,4 @@
-function auto_number()
+function auto_numbering()
 {
       var i = 0;
       var rules = document.getElementsByClassName('rule-number');
@@ -14,4 +14,4 @@ function auto_number()
 
 }
 
-auto_number();
+auto_numbering();
