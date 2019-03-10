@@ -1,0 +1,94 @@
+body {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-gap: 32px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.author-cited-from {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.title {
+  font-family: "Philosopher";
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: "Philosopher";
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.author {
+  font-family: "Comfortaa";
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.area {
+  display: grid;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  grid-gap: 32px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rule-listed {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+.rule-listed .listed {
+  font-weight: bold;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.rule-listed p {
+  font-size: 18px;
+  margin: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.rule-listed p:first-child {
+  margin-left: 0px;
+  margin-right: 8px;
+}
+
+.rule-listed p:last-child {
+  margin-left: 8px;
+  margin-right: 0px;
+}
+
+.rule-text {
+  font-family: "Philosopher";
+}
+
+.dashboard-area-list-element li p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.rule-list-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
