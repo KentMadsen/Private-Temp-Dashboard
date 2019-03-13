@@ -3,20 +3,42 @@
     list-style: none;
     padding: 0px;
     margin: 0px;
+    border-bottom: 1px solid gray;
 
 }
 
+/*
+
+
+*/
 .header-main-navigation .header-navigation-label
 {
-    margin-left: 32px;
-    margin-right: 32px;
+    font-family: 'Oxygen';
     
-    padding-top: 16px;
-    padding-bottom: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    padding-left: 18px;
+    padding-right: 18px;
+    
+}
+
+.header-navigation-label p
+{
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .header-main-navigation .header-navigation-link-area
 {
+    text-transform: uppercase;
+ 
     color: black;
     text-decoration: none;
 }
+
+
