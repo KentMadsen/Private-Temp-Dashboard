@@ -16,9 +16,18 @@ body
       grid-gap: 32px;
 }
 
+.page-boundary
+{
+      width: 1080px;
+      margin-right: auto;
+      margin-left: auto;
+}
+
 header 
 {
       background-color: white;
+      
+    border-bottom: 1px solid gray;
 
 }
 

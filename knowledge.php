@@ -30,23 +30,21 @@
            crossorigin="anonymous">
 
     <title>
-      Dashboard - Homepage
+      Dashboard - Knowledge
     </title>
   </head>
 
   <body> 
-    <header>
-      <nav class="header-main-navigation">
-        
-      </nav>
-    </header>
+    <?php 
+      include "./generic/header.html";
+    ?> 
     
     <main>
       Main
     </main>
 
-    <footer>
-      Footer
-    </footer>
+    <?php 
+      include "./generic/footer.html";
+    ?> 
   </body>
 </html>

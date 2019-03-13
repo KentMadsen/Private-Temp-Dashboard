@@ -29,21 +29,26 @@
            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
            crossorigin="anonymous">
 
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Oxygen|Pontano+Sans" rel="stylesheet"> 
+
     <title>
-      Dashboard - Knowledge
+      Dashboard - Homepage
     </title>
   </head>
 
-  <body> 
-    <header>
-    </header>
+  <body>
+    <?php 
+      include "./generic/header.html";
+    ?> 
+    
     
     <main>
       Main
     </main>
 
-    <footer>
-      Footer
-    </footer>
+    
+    <?php 
+      include "./generic/footer.html";
+    ?> 
   </body>
 </html>
