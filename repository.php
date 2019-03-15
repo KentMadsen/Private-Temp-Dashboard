@@ -7,7 +7,7 @@
     ?>
 
     <title>
-      Dashboard - Homepage
+      Dashboard - Repository
     </title>
   </head>
 
