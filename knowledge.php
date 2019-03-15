@@ -7,7 +7,7 @@
     ?>
 
     <title>
-      Dashboard - Homepage
+      Dashboard - Knowledge
     </title>
   </head>
 

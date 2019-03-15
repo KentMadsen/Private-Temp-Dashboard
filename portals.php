@@ -7,7 +7,7 @@
     ?>
 
     <title>
-      Dashboard - Homepage
+      Dashboard - Portal
     </title>
   </head>
 

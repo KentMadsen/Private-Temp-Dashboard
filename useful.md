@@ -35,18 +35,9 @@ https://foundation.zurb.com/
 https://scrapy.org/
 https://framework.zend.com/
 
-
 https://datatables.net/
 
-
-
-
-
-
 https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/
-
-
-
 
 https://eugdpr.org/
 

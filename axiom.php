@@ -7,7 +7,7 @@
     ?>
 
     <title>
-      Dashboard - Homepage
+      Dashboard - Axiom
     </title>
   </head>
 
