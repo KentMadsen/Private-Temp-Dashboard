@@ -3,7 +3,7 @@
   <head>
     
     <?php 
-      include "./generic/media.html";
+    include "./generic/media.html";
     ?>
 
     <title>
@@ -11,15 +11,17 @@
     </title>
   </head>
 
-  <body> 
+  <body>
     <?php 
       include "./generic/header.html";
     ?> 
+    
     
     <main>
       Main
     </main>
 
+    
     <?php 
       include "./generic/footer.html";
     ?> 
