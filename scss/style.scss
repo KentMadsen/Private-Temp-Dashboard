@@ -2,9 +2,13 @@
 // #e67e22
 // #e74c3c
 
+// Hover: #4cd137
+// Background: #353b48
+// Background 2: #487eb0
+
 body 
 {
-      background-color: #ecf0f1;
+      background-color: #353b48;
       
       display: grid;
       grid-template-rows: auto auto auto;
@@ -25,20 +29,24 @@ body
 
 header 
 {
-      background-color: white;
       
-    border-bottom: 1px solid gray;
+}
 
+header a 
+{
+      color: white;
 }
 
 main 
 {
-
+      background-color: rgba($color: black, $alpha: 0.4);
+      min-height:200px;
 }
 
 footer 
 {
-  
+      background-color: rgba($color: black, $alpha: 0.4);
+      min-height:200px;
 }
 
 @import './menu.scss';
