@@ -26,4 +26,8 @@
       include "./generic/footer.html";
     ?> 
   </body>
+
+  <?php
+    include "./generic/code.html"; 
+  ?>
 </html>

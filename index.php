@@ -15,15 +15,21 @@
     <?php 
       include "./generic/header.html";
     ?> 
-    
-    
+        
     <main>
-      Main
+      <section>
+        <div class="page-boundary"> 
+
+        </div>
+      </section>
     </main>
 
-    
     <?php 
       include "./generic/footer.html";
     ?> 
   </body>
+
+  <?php
+    include "./generic/code.html"; 
+  ?>
 </html>
