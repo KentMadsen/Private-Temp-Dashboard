@@ -2,25 +2,26 @@
 <html lang="en">
   <head>
     
-
-          <?php 
+    <?php 
     include "./generic/media.html";
     ?>
 
     <title>
-      Dashboard - Knowledge
+      Dashboard - Homepage
     </title>
   </head>
 
-  <body> 
+  <body>
     <?php 
       include "./generic/header.html";
     ?> 
+    
     
     <main>
       Main
     </main>
 
+    
     <?php 
       include "./generic/footer.html";
     ?> 
