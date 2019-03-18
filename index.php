@@ -23,21 +23,21 @@
             <div class="cover-clock">
               <div class="cover-clock-hours"> 
                 <div class="align-center-of-height"> 
-                  <p> 
+                  <p class="clock-hours"> 
                     10
                   </p>
                 </div>
               </div>
               <div class="cover-clock-minutes"> 
                 <div class="align-center-of-height"> 
-                  <p> 
+                  <p class="clock-minutes"> 
                     45
                   </p>
                 </div>
               </div>
               <div class="cover-clock-seconds"> 
                 <div class="align-center-of-height"> 
-                  <p> 
+                  <p class="clock-seconds"> 
                     60
                   </p>
                 </div>
@@ -51,9 +51,14 @@
     <?php 
       include "./generic/footer.html";
     ?> 
+
+    <script src="./js/clock.js"> 
+    
+    </script>
   </body>
 
   <?php
     include "./generic/code.html"; 
   ?>
+  
 </html>
