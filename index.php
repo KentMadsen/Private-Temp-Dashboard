@@ -17,7 +17,7 @@
     ?> 
         
     <main>
-      <section>
+      <section class="cover-background">
         <div class="page-boundary"> 
           <div class="cover-clock-boundary">
             <div class="cover-clock">
