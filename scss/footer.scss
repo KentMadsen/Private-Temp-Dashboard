@@ -1,3 +1,13 @@
+footer p
+{
+    color:white;
+    
+    font-family: 'Open Sans';
+    font-size: 12px;
+    margin:0px;
+    padding:0px;
+}
+
 .footer-misc
 {
     background-color: #ecf0f1;
@@ -38,6 +48,98 @@
     font-size: 12px;
     text-decoration: none;
     
-    font-family: 'Raleway';
+    font-family: 'Open Sans';
 
+}
+
+.footer-link a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    
+    text-transform: uppercase;
+}
+
+
+.footer-link ul 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-link li
+{
+    list-style: none;
+}
+
+.footer-social a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    
+    text-transform: uppercase;
+}
+
+.footer-social ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-social li 
+{
+    list-style: none;
+}
+
+.footer-social
+{
+    list-style: none;
+}
+
+.footer-made-using 
+{
+    list-style: none;   
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-made-using li a
+{
+    color:white;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+
+}
+
+.footer-built-with
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.footer-built-with p
+{
+    color:white;
+    
+    font-family: 'Open Sans';
+}
+
+.footer-built-with li
+{
+    list-style: none;
+
+}
+
+.footer-built-with li a 
+{
+    
+    text-transform: uppercase;
+    color:white;
+    
+    font-family: 'Open Sans';
 }
