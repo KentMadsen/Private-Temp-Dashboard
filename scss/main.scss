@@ -1,0 +1,13 @@
+.horizontal-3-element-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 12px;
+}
+
+.container-area
+{
+    grid-column: span 4;
+    margin: 32px 0px;
+}
