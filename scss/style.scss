@@ -49,6 +49,89 @@ footer
       min-height:200px;
 }
 
+.cover-clock
+{
+      display: grid;
+
+      height: 100%;
+      width: 100%;
+
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 8px;
+}
+
+.cover-clock-boundary
+{
+      width: 100%;
+      height: 400px;
+
+      background-color: rgba($color: #FFFFFF, $alpha: 0.2)
+}
+
+.cover-clock-hours
+{
+      grid-column: span 6;
+      grid-row: span 12;
+      color: white;
+      font-family: 'open sans';
+}
+
+
+.cover-clock-hours p 
+{
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+}
+
+.cover-clock-minutes
+{
+      grid-column: span 6;
+      grid-row: span 6;
+      color: white;
+      font-family: 'open sans';
+}
+
+.cover-clock-minutes p 
+{
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+}
+
+.cover-clock-seconds
+{
+      grid-column: span 6;
+      grid-row: span 6;
+      color: white;
+      font-family: 'open sans';
+}
+
+
+.cover-clock-seconds p
+{
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+      
+}
+
+.align-center-of-height
+{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+}
+
+.align-center-of-height p 
+{
+      text-align: center;
+
+}
+
 @import './menu.scss';
 
 @import './header.scss';

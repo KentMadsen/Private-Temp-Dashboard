@@ -19,7 +19,31 @@
     <main>
       <section>
         <div class="page-boundary"> 
-
+          <div class="cover-clock-boundary">
+            <div class="cover-clock">
+              <div class="cover-clock-hours"> 
+                <div class="align-center-of-height"> 
+                  <p> 
+                    10
+                  </p>
+                </div>
+              </div>
+              <div class="cover-clock-minutes"> 
+                <div class="align-center-of-height"> 
+                  <p> 
+                    45
+                  </p>
+                </div>
+              </div>
+              <div class="cover-clock-seconds"> 
+                <div class="align-center-of-height"> 
+                  <p> 
+                    60
+                  </p>
+                </div>
+              </div>
+            </div> 
+          </div>
         </div>
       </section>
     </main>
