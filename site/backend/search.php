@@ -1,1 +1,8 @@
 <?php
+
+function search()
+{
+
+}
+
+search();
