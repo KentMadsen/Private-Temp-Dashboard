@@ -12,4 +12,3 @@ function ShowContent( $file )
 }
 
 hook();
-?>
