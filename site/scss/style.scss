@@ -1,25 +1,44 @@
-#app 
+body 
 {
     margin: 0px;
     padding: 0px;
 }
 
-body 
+#app 
 {
+    @extend body;
     display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    
+    grid-gap: 32px;
+
+    width: 100%;
 }
 
 header
 {
-
+    min-height: 80px;
+    
+    background-color: green;
+    
 }
 
 main 
 {
+    min-height: 800px;
+    background-color: green;
+    
 
 }
 
 footer 
 {
-
+    min-height: 200px;
+    
+    background-color: green;
+    
 }
+
+@import './mobile.scss';
